@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+  <meta name="description" content="My Portfolio website">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<style>
+  body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .content{padding-top:100px;}
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: dodgerblue;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+  }
+  .socials a{
+    color: firebrick;
+    padding-right: 8px;
+    padding-bottom: 8px;
+  }
+</style>
+
+<body>
+  
+  <!-- Particle Effect -->
+  <div id="particles-js" class="big"></div>
+  
+  <!-- Intro Header -->
+  <div class="container pt-5">
+      <h1 class="display-4">Your Name</h1>
+      <p class="lead">Hi 👋, I am an aspiring developer and student @McMaster University.<p>
+      <hr>
+      <div class="socials">
+        <i class="fab fa-github"></i> : <a href="https://github.com">github</a>
+        <i class="fab fa-linkedin"></i> :  <a href="https://github.com">linkedin</a>
+        <i class="fas fa-at"></i> : <a href="mailto:me@mcmaster.ca">someone@mcmaster.ca</a>
+        <i class="fas fa-briefcase"></i> : <a href="/Resume.pdf">Resume</a>
+      </div>
+  </div>
+  
+  <!-- Main Content -->
+  <div class="container content">
+    
+    <!-- About Me -->
+    <section class="pt-4 pb-3">
+      <h3>📕 About Me</h3>
+      <p>I am a software engineering student from McMaster. I love coding, snowboarding and playing soccer.</p>
+    </section>
+
+    <!-- Experience -->
+    <section class="pt-4 pb-3">
+      <h3>💼 Experience </h3>
+      <div class="list-group list-group-flush">
+        
+        <!-- Experience Item   -->
+        <div class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-0">Teaching Assistant</h5>
+            <small>Dec. 2019 - Mar. 2020</small>
+          </div>
+          <small>McMaster University</small>
+          <ul class="mt-1 mb- pl-4">
+            <li>Did this</li>
+            <li>Did that</li>
+          </ul>
+        </div>
+        
+        <!-- Experience Item   -->
+        <div class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-0">Soccer Instructor</h5>
+            <small>Dec. 2019 - Mar. 2020</small>
+          </div>
+          <small>Westdale High</small>
+          <ul class="mt-1 mb-1 pl-4">
+            <li>Did this</li>
+            <li>Did that</li>
+          </ul>    
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="pt-4 pb-3">
+      <h3>🛠 Projects</h3>
+      <div class="container pt-2">
+        <div class="row hidden-md-up">
+          <div class="col-md-4 pb-3">
+            
+            <!-- Project Card  -->
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Algorithms Visualizer</h5>
+                <h6 class="card-subtitle mb-2 text-muted">JavaScript</h6>
+                <p class="card-text">Built Sorting algorithm Visualizer.</p>
+                <a href="https://github.com/" target="_blank" class="card-link">
+                  <i class="fab fa-github"></i> AlgoViz
+                </a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-md-4 pb-3">
+            
+            <!-- Project Card  -->
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Algorithms Visualizer</h5>
+                <h6 class="card-subtitle mb-2 text-muted">JavaScript</h6>
+                <p class="card-text">Built Sorting algorithm Visualizer.</p>
+                <a href="https://github.com/" target="_blank" class="card-link">
+                  <i class="fab fa-github"></i> AlgoViz
+                </a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="pt-4 pb-3">
+      <h3>👨‍💻 Skills</h3>
+      <ul class="mt-1 mb-1">
+        <li><b>Languages:</b> Java, JavaScript, Python, MatLab, HTML, CSS </li>
+        <li><b>Tools:</b> GitHub, Git, Bash</li>
+      </ul>   
+    </section>
+
+    <!-- Hobbies -->
+    <section class="pt-4 pb-3">
+      <h3>🏂 Hobbies</h3>
+      <ul class="mt-1 mb-1">
+        <li>Snowboarding</li>
+        <li>Soccer</li>
+      </ul>   
+    </section>
+  </div>
+</body>
+</html>
+
+<!-- PARTICLE EFFECT -->
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script>
+  // LOAD PARTICLE EFFECT
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 80,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#ffffff"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+      },
+      "opacity": {
+        "value": 0.5,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 3,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 20,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#ffffff",
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 6,
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "bounce": false,
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "repulse"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 400,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 400,
+          "size": 40,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true
+  });
+</script>
