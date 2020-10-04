@@ -1,2 +1,2 @@
-### Awesome Contributors 😎
+### Our Awesome Contributors 😎
  - {your name}
