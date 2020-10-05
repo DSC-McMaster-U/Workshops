@@ -10,40 +10,41 @@ In this guide, we show how you can make your first contribution using this repos
 ### 1. Fork this repository 
 Create a personal copy of this repository by clicking on the **fork** button on top-right of this page.
 <br/>
-<img style="box-shadow: -2px 10px 26px -15px rgba(0,0,0,0.75);" width="300" src="./images/fork.png" alt="fork this repository" />
+<img width="400" src="./images/fork.png" alt="fork this repository" />
 <br/>
 <br/>
 This should create a forked repository in your GitHub account.
 <br/>
 <br/>
-<img style="box-shadow: -2px 10px 26px -15px rgba(0,0,0,0.75);" width="200" src="./images/forked.png" alt="fork this repository" />
+<img width="200" src="./images/forked.png" alt="fork this repository" />
 
 ### 2. Create a new branch
 Create a new branch called `contribution` in your forked repository. 
 <!-- ![New Branch](./images/new-branch.png) -->
-<img style="box-shadow: -2px 10px 26px -15px rgba(0,0,0,0.75);" width="500" src="./images/new-branch.png" alt="fork this repository" />
+<img  src="./images/new-branch.png" alt="fork this repository" />
 
 ### 3. Make necessary changes and commit those changes
-- Navigate to `contribution.md`, located under the folder - `Creating an Effective GitHub Profile > contributions > contributors.md`. Click on edit file icon ✏️, and add your name on a new line.
+- Navigate to `contribution.md`, located under the folder - `Creating an Effective GitHub Profile > contributions > contributors.md`. Click on edit file icon ✏️, and add your name on a new line.<br/>
+   
     ```
      - Your Name
     ``` 
-    <img style="box-shadow: -2px 10px 26px -15px rgba(0,0,0,0.75);" width="500" src="./images/change.png" alt="fork this repository" />
+    <img src="./images/change.png" alt="fork this repository" />
 <br/>
 
 - Once you have edited the file, commit those changes by adding a commit message and clicking on the `Commit changes` button.
 
-    <img style="box-shadow: -2px 10px 26px -15px rgba(0,0,0,0.75);" width="500" src="./images/commit-branch.png" alt="fork this repository" />
+    <img src="./images/commit-branch.png" alt="fork this repository" />
 
 
 ### 3. Submit your changes for review by creating a pull request
 - Navigate back to the homepage of the forked repository (by clicking on the repository name on the top). You should now see the prompt for `Compare & pull request`
       
-    <img style="box-shadow: -2px 10px 26px -15px rgba(0,0,0,0.75);" width="500" src="./images/pr.png" alt="fork this repository" />
+    <img src="./images/pr.png" alt="fork this repository" />
 
 - Create pull request.
 
-    <img style="box-shadow: -2px 10px 26px -15px rgba(0,0,0,0.75);" width="500" src="./images/create-pr.png" alt="fork this repository" />
+    <img src="./images/create-pr.png" alt="fork this repository" />
     
  
 ### That's it!
