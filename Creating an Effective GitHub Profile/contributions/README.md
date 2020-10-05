@@ -23,7 +23,7 @@ Create a new branch called `contribution` in your forked repository.
 <!-- ![New Branch](./images/new-branch.png) -->
 <img  src="./images/new-branch.png" alt="fork this repository" />
 
-### 3. Make necessary changes and commit those changes
+### 3. Make necessary changes and commit
 - Navigate to `contribution.md`, located under the folder - `Creating an Effective GitHub Profile > contributions > contributors.md`. Click on edit file icon ✏️, and add your name on a new line.<br/>
    
     ```
