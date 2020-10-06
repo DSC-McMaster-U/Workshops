@@ -36,6 +36,9 @@ Find the workshop slides here: [Creating an Effective GitHub profile](https://do
 #### How to Contribute to Open Source
 <!-- Todo -->
 
+#### Contribute to this Guide
+This workshop guide is intentionally left imcomplete to encourage contributions from other students. If you wish to complete one of the sections in this `README` based on what you learned from the workshop, feel free to make the change and create a pull request for it. We would love to see it!
+<!-- Todo -->
 
 
 ### Resources
@@ -43,6 +46,10 @@ Please refer to these links to learn more about each topic
 
 - Profile `README`
   - [How to Stand out on Github Using Profile READMEs](https://medium.com/better-programming/how-to-stand-out-on-github-with-profile-readmes-dfd2102a3490?source=friends_link&sk=61df9c4b63b329ad95528b8d7c00061f)
+- Open source contributions
+   - [Your first contribution](https://github.com/DSC-McMaster-U/Workshops/tree/main/Creating%20an%20Effective%20GitHub%20Profile/contributions)
+   - [Up For Grabs](https://up-for-grabs.net/#/) - Find Open Source projects looking for help 
+   - [Good First Issue](https://goodfirstissue.dev/) - Find beginner level issues 
 - Setting up GitHub pages
   - [Quickstart Guide](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site#creating-a-repository-for-your-site)
   - [Getting Started Guide](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site#creating-a-repository-for-your-site)
