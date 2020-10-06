@@ -37,7 +37,7 @@ Find the workshop slides here: [Creating an Effective GitHub profile](https://do
 <!-- Todo -->
 
 #### Contribute to this Guide
-This workshop guide is intentionally left imcomplete to encourage contributions from other students. If you wish to complete one of the sections in this `README` based on what you learned from the workshop, feel free to make the change and create a pull request for it. We would love to see it!
+This workshop guide is intentionally left imcomplete to encourage contributions from other students. If you wish to complete one of the sections in this `README` based on what you learned from the workshop, follow the standard fork > change > pull request for submitting the change. We would love to see contributions!
 <!-- Todo -->
 
 
