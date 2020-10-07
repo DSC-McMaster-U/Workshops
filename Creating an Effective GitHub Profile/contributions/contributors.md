@@ -1,3 +1,6 @@
 ### Our Awesome Contributors 😎
  - {your name}
- - Josh Lawrence 
+ - Josh Lawrence
+ - Blake Freer
+ - Forrest Herman
+ - Hanna Vogel
