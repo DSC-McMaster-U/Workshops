@@ -4,3 +4,4 @@
  - Blake Freer
  - Forrest Herman
  - Hanna Vogel
+ - Guotong Miao
