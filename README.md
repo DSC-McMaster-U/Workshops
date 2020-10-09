@@ -15,7 +15,7 @@ Workshop & Talks team members will be the main contributors to this repository. 
   - See [Creating an Effective GitHub profile](https://github.com/DSC-McMaster-U/Workshops/tree/main/Creating%20an%20Effective%20GitHub%20Profile) folder as an Example
 - Guides can be split into seperate `README` files in subfolders if it makes sense or if the workshop if part of a series
 
-## Resources
+## Useful Links
 
 If you not sure how to contribute on GitHub, check out our [first contribution guide](https://github.com/DSC-McMaster-U/Workshops/tree/main/Creating%20an%20Effective%20GitHub%20Profile) that walks you through making your first open source contribution.
 
