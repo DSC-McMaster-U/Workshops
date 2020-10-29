@@ -8,6 +8,8 @@ Find the workshop slides and recording here:
 - Slides:
 - Recording:
 
+Find the code for this workshop under the **code** folder.
+
 ## HTML Basics
 What is HTML?
 
