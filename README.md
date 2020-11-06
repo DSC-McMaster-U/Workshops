@@ -1,6 +1,8 @@
 # Workshops & Talks
 Resources and code for Technical Workshops & Talks hosted by DSC McMaster.
 
+If you are looking for workshop/talk recordings, please find them on our [YouTube channel](https://www.youtube.com/channel/UCyxVVPDEYRCjL0lcwoX9lzA).
+
 ## Purpose 
 - To create ever-growing resources and documentation for the workshops & talks we do.
 - To embrace open source culture and allow the team to get involved in helping develop workshop content and curriculum. 
