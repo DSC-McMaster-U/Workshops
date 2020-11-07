@@ -64,7 +64,7 @@ Some elements are **empty** and don't have any content associated. These element
 ### Resources
 
 ## CSS Basics
-What is CSSS?
+What is CSS?
 ### CSS Box Model
 
 ### CSS Syntax
@@ -76,11 +76,70 @@ What is CSSS?
 ### Resources
 
 ## JavaScript Basics
-What is JavaScript?
+What is JavaScript?\
+Javascript is lightweight, cross platform language mainly known for its uses in web development. Its popularly used in frameworks for Web Development like Node.js.
+
+An example of what Javascript is capable of doing is present below:\
+
+```html
+<script><!-- Script tag to embed Javascript into HTML -->
+document.getElementById("demo").innerHTML = "Hello JavaScript!"; <!-- Use of DOM will be explained further below -->
+</script>
+```
 
 ### The Document Object Model (DOM)
+What is Document Object Model (DOM)?\
+Document object model is a model that JavaScript uses to organize different HTML tags in an HTML webpage as objects so they can be easy to work with.
+
+The model can be seen in the picture below for further illustration:\
+[<img src="https://www.w3schools.com/js/pic_htmltree.gif">](https://www.w3schools.com/js/js_htmldom.asp)
+
+An explanation of the previous example is present here:
+```html
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!"; <!-- Starts with the document object and follows the hierarchy to demo and changes what is inside of the tags(innerHTML) to "Hello JavaScript!" -->
+</script>
+```
 
 ### JS Examples
+A few key examples for JavaScript use:
+
+Functions:
+```javascript
+//Function declaration
+function myFunction(a, b) {
+  return a * b;
+}
+
+//Function call
+a = myfunction(1,2);
+```
+
+Loops:
+```javascript
+var i;
+var num;
+//For Loop structure
+for (i = 0; i < 3; i++) {
+  num += i;
+}
+
+//While loop structure
+while (i < 3) {
+  num += i;
+}
+```
+
+Objects:
+```javascript
+//Object declaration and assignment
+var car = {type:"Fiat", model:"500", color:"white"};
+
+//Accessing object data
+var a = car.model;
+```
+
+[Useful Resource for more examples and further documentation](https://www.w3schools.com/js/default.asp)
 
 ## Creating a Personal Website
 
