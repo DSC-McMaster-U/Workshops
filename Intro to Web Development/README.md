@@ -5,10 +5,10 @@ Welcome to our **Intro to Web Development Guide**. This workshop walks you throu
 - Hosting your website using GitHub pages
 
 Find the workshop slides and recording here:
-- Slides:
-- Recording:
+- Slides: https://docs.google.com/presentation/d/1T02_TB-9yCOqG8hc3grlcmElUrxhr5yt14uyBUhKyuQ/edit?usp=sharing
+- Recording: https://www.youtube.com/watch?v=A3uYb8GfrHs
 
-Find the code for this workshop under the **code** folder.
+Find the code for this workshop under the [**code**](./code/index.html) folder.
 
 ## HTML Basics
 **What is HTML?**<br>
@@ -77,32 +77,69 @@ What is CSS?
 
 ## JavaScript Basics
 What is JavaScript?\
-Javascript is lightweight, cross platform language mainly known for its uses in web development. Its popularly used in frameworks for Web Development like Node.js.
+Javascript is lightweight, cross platform language mainly known for its uses in web development. It's popularly used in frameworks like `React` for Front-end Web Development and in `Node.js` for running server side code.
 
-An example of what Javascript is capable of doing is present below:\
+### JavaScript in Web Example
+ An example of what Javascript is capable of doing:
+
+<img width="200" src="./images/hello.gif" alt="fork this repository" />
+<br></br>
 
 ```html
-<script><!-- Script tag to embed Javascript into HTML -->
-document.getElementById("demo").innerHTML = "Hello JavaScript!"; <!-- Use of DOM will be explained further below -->
+...
+<h1 id="greeting">Hello World!</h1>
+<button id="update">Click me</button>
+<!-- Script tag to embed JavaScript within HTML -->
+<script>
+  // get button reference
+  const button = document.getElementById('update'); 
+
+  // attach a click listener that calls updateHeader function on click.
+  button.addEventListener('click', updateHeader); 
+  
+  // this is called when button is clicked
+  function updateHeader(){
+      var myHeading = document.getElementById('greeting');
+      myHeading.innerHTML = 'Hello everyone!';
+  }
 </script>
+...
 ```
+
 
 ### The Document Object Model (DOM)
 What is Document Object Model (DOM)?\
 Document object model is a model that JavaScript uses to organize different HTML tags in an HTML webpage as objects so they can be easy to work with.
 
-The model can be seen in the picture below for further illustration:\
+The model can represented as a tree to represent the hierarchy of HTML:\
 [<img src="https://www.w3schools.com/js/pic_htmltree.gif">](https://www.w3schools.com/js/js_htmldom.asp)
 
-An explanation of the previous example is present here:
-```html
-<script>
-document.getElementById("demo").innerHTML = "Hello JavaScript!"; <!-- Starts with the document object and follows the hierarchy to demo and changes what is inside of the tags(innerHTML) to "Hello JavaScript!" -->
-</script>
-```
 
-### JS Examples
-A few key examples for JavaScript use:
+In our previous [example](#javascript-in-web-example), the DOM is used to access and change the HTML elements. The majority of the DOM API is accesible via the global variable `document`.
+
+- Accessing HTLM Element through DOM 
+
+  ```js
+  const button = document.getElementById('update'); 
+  ```
+- Editing HTLM Element through DOM
+  
+  ```js
+  var myHeading = document.getElementById('greeting');
+  myHeading.innerHTML = 'Hello everyone!';
+  ```
+
+
+### JavaScript Syntax
+A few key syntax for JavaScript use:\
+To try these out, you can use an online editor like [repl.it](https://repl.it/languages/javascript).
+
+Variables:
+```js
+var myVariable2 = 123; // global scope
+let myVariable = "hello"; // block scope (preffered over var)
+const myVariable3 = [1, 2]; // similar to let, but constant value
+```
 
 Functions:
 ```javascript
@@ -112,34 +149,47 @@ function myFunction(a, b) {
 }
 
 //Function call
-a = myfunction(1,2);
+let a = myFunction(1,2);
+console.log(a); // prints 2
 ```
 
 Loops:
 ```javascript
-var i;
-var num;
-//For Loop structure
-for (i = 0; i < 3; i++) {
-  num += i;
+let nums = [1, 2, 3];
+// Lets print every number in nums array
+
+// Using standard for loop
+for (let i = 0; i < num.length; i++) {
+  console.log(nums[i]);
 }
 
-//While loop structure
-while (i < 3) {
-  num += i;
+/* 
+Using forEach (note: forEach is an in-built function of all arrays)
+Here we pass an arrow function to 'forEach', that is called for each element in the array.
+*/
+nums.forEach(num => console.log(num))
+
+
+// Using while loop
+let j = 0; // we use var here since let only has block scope
+while (j < nums.length) {
+  console.log(nums[j]);
+  j++;
 }
 ```
 
 Objects:
 ```javascript
 //Object declaration and assignment
-var car = {type:"Fiat", model:"500", color:"white"};
+let car = {type:"Fiat", model:"500", color:"white"};
 
 //Accessing object data
-var a = car.model;
+let a = car.model; // a has the value "500"
+console.log(a) // prints "500"
 ```
 
 [Useful Resource for more examples and further documentation](https://www.w3schools.com/js/default.asp)
+
 
 ## Creating a Personal Website
 
