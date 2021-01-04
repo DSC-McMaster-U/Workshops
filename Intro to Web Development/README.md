@@ -77,13 +77,16 @@ What is CSS?
 
 ## JavaScript Basics
 What is JavaScript?\
-Javascript is lightweight, cross platform language mainly known for its uses in web development. It's popularly used in frameworks like `React` for Front-end Web Development and in `Node.js` for running server side code.
+Javascript is a lightweight, cross platform language mainly known for its uses in web development. It's popularly used in frameworks like `React` for Front-end Web Development and in `Node.js` for running server side code. 
 
-### JavaScript in Web Example
- An example of what Javascript is capable of doing:
+### JavaScript in Web Development
+JavaScript lets us bring websites to life. It lets us write code that makes our websites interactive!
+
+Here is a simple example of interactivity enabled via JavaScript lets. When user clicks the button `Click me`, the title changes to `Hello Everyone`.
 
 <img width="200" src="./images/hello.gif" alt="fork this repository" />
-<br></br>
+
+<br>
 
 ```html
 ...
@@ -109,13 +112,13 @@ Javascript is lightweight, cross platform language mainly known for its uses in 
 
 ### The Document Object Model (DOM)
 What is Document Object Model (DOM)?\
-Document object model is a model that JavaScript uses to organize different HTML tags in an HTML webpage as objects so they can be easy to work with.
+Document object model is an interface that JavaScript uses to access and edit different HTML Elements. DOM repesents the HTML document as nodes and object, making it easy for programming languages like JavaScript to change the content and structure of a page.
 
-The model can represented as a tree to represent the hierarchy of HTML:\
+The model is represented as a tree to accurately model the hierarchy of nested HTML Elements:\
 [<img src="https://www.w3schools.com/js/pic_htmltree.gif">](https://www.w3schools.com/js/js_htmldom.asp)
 
 
-In our previous [example](#javascript-in-web-example), the DOM is used to access and change the HTML elements. The majority of the DOM API is accesible via the global variable `document`.
+In our previous [example](#javascript-in-web-development), the DOM is used to access and change the HTML elements. The majority of the DOM API is accesible via the global variable `document`.
 
 - Accessing HTLM Element through DOM 
 
