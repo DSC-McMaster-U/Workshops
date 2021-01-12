@@ -84,9 +84,75 @@ Examples
 These are just some examples of attributes, there are a lot more specific to each HTML element but you rarely will use them. 
 ### Common HTML Tags
 
+These are some common HTML tags that you can build any type of websites with. 
+
+#### Headings
+```html
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+#### Lists
+```html
+<!-- Lists (Numbered) -->
+<ol> 
+  <li>Eat</li>
+  <li>Sleep</li>
+  <li>Repeat</li>
+</ol>
+<!-- Lists (Unordered) -->
+<ul> 
+  <li>technologists</li>
+  <li>thinkers</li>
+  <li>builders</li>
+</ul>
+```
 #### Anchor Tag
+Used for creating **links**.
+```html
+<!-- Absolute Link (always include http or https) -->
+<a href="https://dsc.community.dev/events/">DSC Events</a>
+
+<!-- Relative Link -->
+<a href="projects.html">My Projects</a>
+
+<!-- Link to a section (eg. this would link to <p id=”me”>.....</p>) -->
+<a href="#me">About me</a>
+
+<!-- Protocols -->
+<a href="mailto:someone@gmail.com">Contact Me</a>
+```
+#### Divisions
+Common container tag for grouping elements.
+```html
+<div class='section1'>
+  <h3>Example Division</h3>
+  <p>Paragraph within a Division</p>
+</div>
+```
+<sub>Note: Don't use `<div>` over native HTML elements. Example: `<div>` can be used to make a button but accesbility features are not automatically added to it. Use `<button>` instead.  </sub>
 
 ### HTML File structure
+
+How do we put everything together? For all HTML files, we have follow a standard format (as defined by the [HTML specification](https://www.w3.org/TR/html52/introduction.html#a-quick-introduction-to-html)).
+
+```html
+<!DOCTYPE html> <!-- required preamble -->
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>My HTML</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>My First paragraph.</p>
+  </body>
+</html>
+```
+All your content goes in `<body>` and all metadata in `<head>`. That's it! Try copying the above code into a `index.html` file and open it using a browser.
 
 ### Resources
 
