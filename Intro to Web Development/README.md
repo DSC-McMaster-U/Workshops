@@ -154,7 +154,10 @@ How do we put everything together? For all HTML files, we have follow a standard
 ```
 All your content goes in `<body>` and all metadata in `<head>`. That's it! Try copying the above code into a `index.html` file and open it using a browser.
 
-### Resources
+#### HTML Resources
+- [W3Schools](https://www.w3schools.com/) - Great website for reference
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML) - Guides and docs by Mozilla
+- [Stackoverflow](https://developer.mozilla.org/en-US/docs/Web/HTML) - If you ever have a question, its  likely been asked before on stackoverflow
 
 ## CSS Basics
 What is CSS?
